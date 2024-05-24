@@ -1,25 +1,22 @@
 import { Box, Container, Heading, Text, VStack } from "@chakra-ui/react";
 
-const Index = () => {
+const LatestNews = () => {
   return (
     <Container maxW="container.xl" py={10}>
       <VStack spacing={8} align="start">
         <Heading as="h1" size="2xl">
-          Welcome to Financial Times
+          Latest News
         </Heading>
-        <Text fontSize="lg">
-          Stay updated with the latest financial news and insights.
-        </Text>
         <Box>
           <Heading as="h2" size="lg" mb={4}>
-            Featured Articles
+            Recent Updates
           </Heading>
-          <Text>Article 1: The impact of global markets...</Text>
-          <Text>Article 2: Financial strategies for 2023...</Text>
+          <Text>News 1: Market trends show...</Text>
+          <Text>News 2: New policies affecting...</Text>
         </Box>
       </VStack>
     </Container>
   );
 };
 
-export default Index;
+export default LatestNews;
